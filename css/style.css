@@ -7,7 +7,47 @@ body {
     color: white;
 }
 
+nav {
+    text-align: center;
+    background-image: -webkit-radial-gradient(grey, purple);
+    margin: 10px;
+    padding: 10px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+}
+
 h1 {
     text-align: center;
-    text-shadow: 5px 5px 20px white;
+    text-shadow: 5px 5px 20px blue;
+    font: 50px impact;
+    color: blue;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > ul > li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container .row .col {
+    display: flex;
+    justify-content: space-b;
+    background-color: purple;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
