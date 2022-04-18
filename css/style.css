@@ -9,13 +9,17 @@ body {
 
 nav {
     text-align: center;
-    background-image: -webkit-radial-gradient(grey, purple);
+    background-image: -webkit-radial-gradient(blue, black 70%);
     margin: 10px;
     padding: 10px;
+    /*
+    border-radius: 10px;
+    */
 }
 
 nav > ul > li {
     display: inline-block;
+    justify-content: space-between;
     text-decoration: none;
     margin: 20px;
 }
@@ -31,22 +35,28 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: grey;
+    background-color: black;
+    border-top: white solid .25px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    /*
+    border-radius: 10px;
+    */
 }
 
 footer > ul > li {
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
     margin-left: 40px;
     margin-right: 40px;
+    padding: 5px;
 }
 
 .container .row .col {
     display: flex;
     justify-content: space-b;
-    background-color: purple;
+    background-image: -webkit-radial-gradient(seagreen, black);
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
